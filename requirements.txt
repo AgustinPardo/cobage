@@ -1,0 +1,8 @@
+# python packages
+cobra
+pandas
+numpy
+matplotlib
+matplotlib_venn
+seaborn
+xlrd
