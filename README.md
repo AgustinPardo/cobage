@@ -1,5 +1,12 @@
 # cobage
 
+|         |                                                                       |
+| ------- | --------------------------------------------------------------------- |
+| Authors | Agustin Maria Pardo    |
+| Github  | [AgustinPardo](https://github.com/AgustinPardo/)                     |
+| Email   | <agustinmpardo@gmail.com>     
+
+
 # Function inputs
 
 ### Usage
