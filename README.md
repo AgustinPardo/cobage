@@ -2,14 +2,20 @@
 
 # Function inputs
 
+### Usage
+
 essen_test(model_tb, dic_return, dataset_name, dataset_excel, growth_thresh_mult)
 
 FN, FP, TN, TP = essen_test(model_iEK_griffin, "Yes both", "griffin", griffin_excel, grow_thresh)
 
 model_tb : COBRA model
-dic_return : Yes, or Yes both options. Return "fal_neg_dic, fal_pos_dic" or "fal_neg_dic, fal_pos_dic, true_neg_dic, true_pos_dic"
-dataset_name : Type of dataset. "griifin" or "loerger"
+
+dic_return : "Yes" or "Yes both" options select which dictionaries return.
+
+dataset_name : Type of dataset. "griffin" or "loerger"
+
 dataset_excel :  dataset file
+
 growth_thresh_mult : FBA growth threshold
 
 # Griffin
@@ -46,9 +52,22 @@ GD approximately 1/10 the mean
 GA 5 times the mean
 
 
-## Output
+# Output
+Count of FN, FP, TN, TP
+
+|                                                   | Experimental data         |            |                |          |
+|---------------------------------------------------|:-------------------------:|:----------:|:--------------:|----------|
+| Model predictions                                 |                           | T (Growth) | F  (No Growth) |          |
+|                                                   |         T (Growth)        |   579/579  |     161/161    |          |
+|                                                   |       F (No Growth)       |    31/29   |     235/229    |          |
+|                                                   |           Total           |            |                | 1006/998 |
 
 
-Matthew Correlation Coefficient (MCC)
 
+Accuracy (Exactitud):
 
+Matthew Correlation Coefficient (MCC):
+
+![MCC](https://github.com/AgustinPardo/cobage/images/MCC.png)
+
+Dictionaries of FN, FP, TN, TP
