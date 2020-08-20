@@ -70,10 +70,10 @@ Count of FN, FP, TN, TP
 
 Accuracy (Exactitud):
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;\\\&space;\bullet&space;\;&space;\frac{dS}{dt}&space;=&space;-&space;\frac{\beta&space;IS}{N}&space;\\&space;\\\&space;\bullet&space;\;&space;\frac{dI}{dt}&space;=&space;\frac{\beta&space;IS}{N}&space;-&space;\gamma&space;I&space;\\&space;\\&space;\&space;\bullet&space;\;&space;\frac{dR}{dt}&space;=&space;\gamma&space;I" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;Accuracy&space;=&space;\frac{(TP&plus;TN)}{(TP&plus;TN&plus;FP&plus;FN)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{140}&space;Accuracy&space;=&space;\frac{(TP&plus;TN)}{(TP&plus;TN&plus;FP&plus;FN)}" title="Accuracy = \frac{(TP+TN)}{(TP+TN+FP+FN)}" /></a>
 
 Matthew Correlation Coefficient (MCC):
 
-![MCC](https://github.com/AgustinPardo/cobage/blob/master/images/MCC.png)
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;MCC&space;=&space;\frac{TP*TN&space;-&space;FP*FN}{\sqrt{(TP&plus;FP)*(TP&plus;FN)*(TN&plus;FP)*(TN&plus;FN)}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{140}&space;MCC&space;=&space;\frac{TP*TN&space;-&space;FP*FN}{\sqrt{(TP&plus;FP)*(TP&plus;FN)*(TN&plus;FP)*(TN&plus;FN)}}" title="MCC = \frac{TP*TN - FP*FN}{\sqrt{(TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)}}" /></a>
 
 Dictionaries of FN, FP, TN, TP
