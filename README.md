@@ -46,9 +46,13 @@ model_loerger : iEK1011_deJesusEssen_media.json
 loerger_file : mbo002173137st3.xlsx
 
 #loerger essenciality threshold
+
 ES being near 0
+
 NE being near the mean
+
 GD approximately 1/10 the mean
+
 GA 5 times the mean
 
 
