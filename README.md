@@ -66,6 +66,8 @@ Count of FN, FP, TN, TP
 
 Accuracy (Exactitud):
 
+(TP+TN)/(TP+TN+FP+FN)
+
 Matthew Correlation Coefficient (MCC):
 
 ![MCC](https://github.com/AgustinPardo/cobage/images/MCC.png)
