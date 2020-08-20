@@ -74,6 +74,6 @@ Accuracy (Exactitud):
 
 Matthew Correlation Coefficient (MCC):
 
-![MCC](https://github.com/AgustinPardo/cobage/images/MCC.png)
+![MCC](https://github.com/AgustinPardo/cobage/blob/master/images/MCC.png)
 
 Dictionaries of FN, FP, TN, TP
