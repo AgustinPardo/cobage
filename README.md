@@ -70,7 +70,7 @@ Count of FN, FP, TN, TP
 
 Accuracy (Exactitud):
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;\\\&space;\bullet&space;\;&space;\frac{dS}{dt}&space;=&space;-&space;\frac{\beta&space;IS}{N}&space;\\&space;\\\&space;\bullet&space;\;&space;\frac{dI}{dt}&space;=&space;\frac{\beta&space;IS}{N}&space;-&space;\gamma&space;I&space;\\&space;\\&space;\&space;\bullet&space;\;&space;\frac{dR}{dt}&space;=&space;\gamma&space;I /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;\\\&space;\bullet&space;\;&space;\frac{dS}{dt}&space;=&space;-&space;\frac{\beta&space;IS}{N}&space;\\&space;\\\&space;\bullet&space;\;&space;\frac{dI}{dt}&space;=&space;\frac{\beta&space;IS}{N}&space;-&space;\gamma&space;I&space;\\&space;\\&space;\&space;\bullet&space;\;&space;\frac{dR}{dt}&space;=&space;\gamma&space;I" /></a>
 
 Matthew Correlation Coefficient (MCC):
 
