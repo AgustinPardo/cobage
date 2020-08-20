@@ -57,10 +57,10 @@ Count of FN, FP, TN, TP
 
 |                                                   | Experimental data         |            |                |          |
 |---------------------------------------------------|:-------------------------:|:----------:|:--------------:|----------|
-| Model predictions                                 |                           | T (Growth) | F  (No Growth) |          |
-|                                                   |         T (Growth)        |   579/579  |     161/161    |          |
-|                                                   |       F (No Growth)       |    31/29   |     235/229    |          |
-|                                                   |           Total           |            |                | 1006/998 |
+| Model predictions                                 |                           |  True (Growth) | False  (No Growth) |          |
+|                                                   |         Positive (Growth)        |   579  |     161    |          |
+|                                                   |       Negative (No Growth)       |    29   |     229    |          |
+|                                                   |           Total           |            |                | 998 |
 
 
 
