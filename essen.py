@@ -64,7 +64,8 @@ def essen_test(model_tb, dic_return, dataset_name, dataset_excel, growth_thresh_
                         fal_neg_dic.update({gene: [growth, float(row["p value"])]})    
                     else:
                         # Hay algunos que tiene growth = nan
-                        print(str(gene))
+                        pass
+                        #print(str(gene))
                 
                         
                 except:
@@ -114,7 +115,8 @@ def essen_test(model_tb, dic_return, dataset_name, dataset_excel, growth_thresh_
                         fal_pos_dic.update({gene: [growth]})
                     else:
                         # Hay algunos que tiene growth = nan
-                        print(str(gene))
+                        pass
+                        # print(str(gene))
                 except:
                     pass
                     # print("algo mas rompio a loerger")
